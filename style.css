@@ -1,0 +1,77 @@
+body{
+    background-image: url(im.jpg);
+background-repeat: no-repeat;
+background-size: cover;   
+}
+.container{
+    margin: auto;
+    width: 900px;
+}
+.form{
+    background-color: rgb(167 160 173 / 69%);
+    /* width: fit-content; */
+    width: 328px;
+    margin: auto;
+    border: 1px solid beige;
+    border-radius: 23px;
+    padding: 23px;
+    margin-top: 35px;
+}
+.center{
+    text-align: center;
+}
+.fontsize{
+    font-size: 20px;
+}
+.inputfont{
+outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 3px;
+    background: none;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+#btn{
+    font-size: 24px;
+    border-radius: 12px;
+    background: darkgrey;
+}
+
+#detail{margin: auto;
+    height:400px ;
+    margin-top: 15px;
+    background-color: rgb(178 183 190 / 68%);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;  
+    PADDING: 10PX 20PX 0 1PX;
+}
+#todo li{
+    display: flex;
+    justify-content: space-between;
+    BORDER-BOTTOM: 1px solid;
+    margin-top: 10px;
+    list-style: none;
+    font-size: 17px;
+    width: 100%;
+    align-items: baseline;
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-weight: 600;
+    color: honeydew;
+}
+
+#todo li.completed{
+    list-style: none;
+    text-decoration: line-through;
+    color: red;
+}
+#todo li.uncompleted{
+    text-decoration: none;
+    color: #000; ;
+}
+#sub{
+    width: 199px;
+    margin-left: 12px;
+}
