@@ -26,14 +26,16 @@ function addtodo(){
     const e= email.value;
     const m= M_no.value;
     const s= sub.value;
-    // const i= image.value;
+    const i= "./img/ks.png"
+    // image.value;
+    
     // console.log(f)
     // console.log(l)
     // console.log(c)
     // console.log(e)
     // console.log(m)
     // console.log(s)
-    // console.log(i)
+    console.log(i)
     if(!f)return;
 
             if(!l)return;
@@ -46,7 +48,7 @@ function addtodo(){
                             
                                 if(!s)return;
 
-                                //   if(!i)return;
+                                  if(!i)return;
 
                                             var data={
                                             text:f,
@@ -56,7 +58,7 @@ function addtodo(){
                                             text3:e,
                                             text4:m,
                                             text5:s,
-                                            // i_mg:i
+                                            i_mg:i
                                             }
 
         // console.log(data)      
@@ -96,8 +98,8 @@ function addtodo(){
 
 
                 
-                //  const img=document.createElement("img");
-                //  img.src=array[i].i_mg;
+                 const img=document.createElement("img");
+                 img.src=array[i].i_mg;
                
 
 
@@ -131,7 +133,7 @@ function addtodo(){
 
 
                 item.appendChild(checkbox);
-                // item.appendChild(img);
+                item.appendChild(img);
                 item.appendChild(f_tx);
                 item.appendChild(l_tx);
                 item.appendChild(c_tx);
@@ -140,7 +142,7 @@ function addtodo(){
                 item.appendChild(s_tx);
                 item.appendChild(dlt);
                 todo.appendChild(item);
-                // image.value=null;
+                image.value=null;
                 fname.value=null;
                 lname.value=null;
                 company.value=null;

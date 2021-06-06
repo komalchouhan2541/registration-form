@@ -1,5 +1,5 @@
 body{
-    background-image: url(im.jpg);
+    background-image: url(./img/im.jpg);
 background-repeat: no-repeat;
 background-size: cover;   
 }
@@ -23,7 +23,7 @@ background-size: cover;
 .fontsize{
     font-size: 20px;
 }
-.inputfont{
+.inputfont {
 outline: none;
     border: none;
     font-size: 16px;
@@ -32,10 +32,22 @@ outline: none;
     background-color: lightblue;
     border-radius: 10px;
 }
+#image {
+    width: 282px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 3px;
+    background: none;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
 #btn{
     font-size: 24px;
     border-radius: 12px;
     background: darkgrey;
+    margin-top: 14px;
 }
 
 #detail{margin: auto;
@@ -74,4 +86,16 @@ outline: none;
 #sub{
     width: 199px;
     margin-left: 12px;
+}
+
+#todo li img{
+    height: 62px;
+    width: 67px;
+    margin-top: auto;
+}
+
+#detail h2{text-align: center;
+    
+
+
 }
